@@ -10,7 +10,7 @@ public class kodBloklarindanifveElse {
 
         if (compare) {
             a = 50;
-            System.out.println("a sayısı" + a);
+            System.out.println("a sayısı:" + a);
             System.out.println("eşittir");
 
         } else {

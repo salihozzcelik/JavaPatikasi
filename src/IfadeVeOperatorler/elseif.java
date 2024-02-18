@@ -11,7 +11,7 @@ public class elseif {
         } else if (b < a && b < c) {
             System.out.println("b en küçük sayıdır");
         } else  {
-            System.out.println("c en küçüktür");
+            System.out.println("c sayısı en küçüktür");
         }
 
 
