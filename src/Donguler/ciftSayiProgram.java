@@ -25,7 +25,7 @@ public class ciftSayiProgram {
             ortalama = toplam / (double) sayac; // Ortalamayı hesapla
             System.out.println("3 ve 4'e tam bölünen sayıların ortalaması: " + ortalama);
         } else {
-            System.out.println("3 ve 4'e tam bölünen hiçbir sayı bulunamadı.");
+            System.out.println("3 ve 4'e tam bölünen hiçbir sayı bulunamadı");
         }
     }
 }
