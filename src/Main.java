@@ -2,6 +2,11 @@ import java.util.Scanner;        // scanner sınıfını dahil ettik
 
 public class Main {
     public static void main(String[] args) {
+
+
+
+
+
         System.out.println("Java 101 Patikası \nBaşlıyoruz");
         int numberOne, numberTwo = 10, numberThree;
         numberOne = 5;
@@ -72,4 +77,9 @@ public class Main {
 
 
     }
+
+
+
+
+
 }

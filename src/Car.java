@@ -1,9 +1,13 @@
 public class Car {
     // nitelikler
     String type;
-    String model;
+    String model =  "test";
     String color;
     int speed;
+
+    Car (String model, int speed) {
+        System.out.println(this.model);
+    }
 
     // davranışlar
     int increaseSpeed(int increment) {
