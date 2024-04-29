@@ -6,30 +6,26 @@ public class Course {
     String name;
     String code;
     String prefix;
-    int note;
 
     Course(String name, String code, String prefix) {
         this.name = name;
-        this.name = code;
-        this.name = prefix;
-        int note = 0;
+        this.code = code;
+        this.prefix = prefix;
+    }
 
-        void addTeacher(Teacher teacher){
-            if (teacher.branch.equals(this.prefix)){
-                this.teacher = teacher;
-            }else {
-                System.out.println("öğretmen ve derse bölümleri uyuşmuyor.");
-            }
-
-
+    void addTeacher(Teacher teacher) {
+        if (teacher.branch.equals(this.prefix)) {
             this.teacher = teacher;
+        } else {
+            System.out.println("Öğretmen ve dersin bölümleri uyuşmuyor.");
         }
-
-
     }
 
     void printTeacher() {
-        this.teacher.print();
+        if (teacher != null) {
+            this.teacher.print();
+        } else {
+            System.out.println("Öğretmen atanmamış.");
+        }
     }
-
 }
